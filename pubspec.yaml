@@ -1,0 +1,26 @@
+name: bv_da_lieu_trung_uong
+description: Front-end demo for hospital appointment booking
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.8.1
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  flutter_riverpod: ^2.6.1
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
